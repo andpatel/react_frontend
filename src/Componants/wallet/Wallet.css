@@ -1,0 +1,106 @@
+.logo_img {
+    width: max-content;
+    margin: auto;
+}
+.logo_size{
+    width: 300px !important;
+    height: 300px !important;
+}
+.heading_text{
+    text-align: center;
+    display: block;
+    margin-top: 50px !important;
+    font-size: 36px !important;
+    letter-spacing: 5px !important;
+    font-weight: 700 !important;
+}
+.logo_two{
+    width: 24px;
+}
+.wallet_btn{
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 50px;
+}
+.btn_tyheme{
+    background-color: hsl(151deg 100% 34%) !important;
+    color: #fff !important;
+    padding: 6px 12px !important;
+    border-radius: 8px;
+    font-weight: 600 !important;
+}
+.btn_tyheme:hover{
+    background-color: hsl(151deg 100% 34%);
+}
+.network_box{
+    padding: 20px;
+    background-color: #1a2024;
+
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.first_line{
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.connect_txt{
+    color: #00e676;
+    align-items: baseline;
+}
+.round_icon{
+    font-size: 10px !important;
+}
+.network_box{
+    width: 700px;
+    height: 300px;
+}
+@media(max-width:768px){
+    .network_box{
+        width: 500px;
+    }
+}
+@media(max-width:592px){
+    .network_box{
+        width: 87%;
+    }
+}
+.heading_txt{
+    font-weight: 600 !important;
+}
+.line_two{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.center_text{
+    padding-top: 20px;
+}
+.text_theme{
+    text-align: center;
+    display: block;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: hsl(210deg 12% 55%);
+}
+.price{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+.price_logo{
+    height: 41px;
+    margin-top: 10px;
+}
+.price_txt{
+    font-size: 36px !important;
+    font-weight: bold !important; 
+}

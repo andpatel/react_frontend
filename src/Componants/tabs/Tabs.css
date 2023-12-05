@@ -1,0 +1,23 @@
+.tabes_main{
+    justify-content: center;
+    display: grid;
+    position: relative;
+}
+.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer{
+    justify-content: center;
+}
+.sun_icon{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+.MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimaryP{
+    flex-direction: inherit;
+}
+.css-12zds1b-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: white !important;
+}
+svg{
+    margin-right: 5px;
+}

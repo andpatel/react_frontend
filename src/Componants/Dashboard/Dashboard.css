@@ -1,0 +1,44 @@
+table{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.css-1azl6jz-MuiTableCell-root{
+    text-align: left !important;
+    color: #fff !important;
+}
+.css-13xfq8m-MuiTabPanel-root{
+    border-radius: 5px;
+    padding: 0px !important;
+    margin-top: 50px;
+}
+.css-177gid-MuiTableCell-root{
+    color: #fff !important;
+    text-align: left !important;   
+}
+th{
+    width: 50px !important;
+    padding: 8px !important;
+    color: #fff !important;
+
+}
+td{
+    width: 100px !important;
+    color: #fff !important;
+    padding: 16px 8px !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color: hsl(151deg 100% 45%) !important;
+}
+.css-ahj2mt-MuiTypography-root{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width:767px){
+    .dashboard_theme table{
+        min-width: unset;
+    }
+}
